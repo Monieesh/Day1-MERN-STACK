@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="calci icon.png">
+    <link rel="stylesheet" href="calc.css">
+    <center><h1>CALCULATOR</h1></center>
+</head>
+<body style="background-color: rgb(129, 248, 238);">
+    <div class="def">
+    <form name="abc">
+    <center>
+        <input type="text" name="answer" placeholder="I'm here to solve your problem : )"><br>
+        <input type="button" value="C" onclick="abc.answer.value=''" >
+        <input type="button" value="%" onclick="abc.answer.value+='%'">
+        <input type="button" value="B" onclick="abc.answer.value.slice(0,-1)">
+        <input type="button" value="/" onclick="abc.answer.value+='/'"><br>
+        <input type="button" value="7" onclick="abc.answer.value+='7'">
+        <input type="button" value="8" onclick="abc.answer.value+='8'">
+        <input type="button" value="9" onclick="abc.answer.value+='9'">
+        <input type="button" value="*" onclick="abc.answer.value+='*'"><br>
+        <input type="button" value="4" onclick="abc.answer.value+='4'">
+        <input type="button" value="5" onclick="abc.answer.value+='5'">
+        <input type="button" value="6" onclick="abc.answer.value+='6'">
+        <input type="button" value="-" onclick="abc.answer.value+='-'"><br>
+        <input type="button" value="1" onclick="abc.answer.value+='1'">
+        <input type="button" value="2" onclick="abc.answer.value+='2'">
+        <input type="button" value="3" onclick="abc.answer.value+='3'">
+        <input type="button" value="+" onclick="abc.answer.value+='+'"><br>
+        <input type="button" value="00" onclick="abc.answer.value+='00'">
+        <input type="button" value="0" onclick="abc.answer.value+='0'">
+        <input type="button" value="." onclick="abc.answer.value+='.'">
+        <input type="button" value="=" onclick="abc.answer.value= eval(abc.answer.value)">
+    </center> 
+    </form>
+</div>
+</body>
+</html>
